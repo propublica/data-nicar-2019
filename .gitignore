@@ -1,0 +1,67 @@
+# files and directories to ignore so that they do not get published on GitHub and no history is saved
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+# Secret keys for APIs and such that you do not want to share
+secret_keys
+
+# DotEnv configuration
+.env
+
+# Database
+*.db
+*.rdb
+
+# Jupyter NB Checkpoints
+.ipynb_checkpoints/
+
+# exclude data from source control by default
+/data/
+
+# Python Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Data (proprietary, personal information ... ) that should not be shared
+*.xls*
+*.csv
+*.json
+*.dbf
+*.html
+*.log
+*.wav
+*.pdf
+*.zip
+*.tiff
+*.qgs
+*.shp
+*.shx
+*.cpg
+*.prj
+*.sbn
+*.sbx
+*.xml
+*.kmz
+*.qgs~
+*.mp3
+*.qpj
+*.DS_Store
