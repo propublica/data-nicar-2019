@@ -7,12 +7,6 @@ __pycache__/
 # C extensions
 *.so
 
-# Secret keys for APIs and such that you do not want to share
-secret_keys
-
-# DotEnv configuration
-.env
-
 # Database
 *.db
 *.rdb
