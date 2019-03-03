@@ -1,7 +1,7 @@
 jupyter
 
 # data and stats
-numpy
+numpy==1.16.0
 pandas
 # scipy
 # statsmodels
