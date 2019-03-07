@@ -9,7 +9,7 @@ pandas
 # viz
 matplotlib
 seaborn==0.9.0
-bokeh
+bokeh==0.12.16
 
 # ml & nlp
 gensim
